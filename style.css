@@ -1,0 +1,19 @@
+body{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: Light-Grey, #d5e1ef;
+    
+}
+
+.cardBody{
+    display: flex;
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
