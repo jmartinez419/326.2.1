@@ -1,19 +1,47 @@
 body{
-    height: auto;
-    width: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: Light-Grey, #d5e1ef;
+width: auto;
+height: auto;
+padding: 152px 0px 151px 0px;
+justify-content: center;
+align-items: center;
+background: var(--Light-Grey, #D5E1EF);
     
+}
+
+img{
+    height: 90%;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
 }
 
 .cardBody{
     display: flex;
-    height: auto;
-    width: auto;
+    height: 60%;
+    width: 45%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
+    border-radius: 10px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+    
+}
+
+.cardInstructions{
+    font-family: Outfit;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cardInstructions-2{
+    font-family: outfit;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 15px;
 }
