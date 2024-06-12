@@ -1,0 +1,56 @@
+body{
+    display: flex;
+width: auto;
+padding: 218.5px 0px 219.5px 0px;
+justify-content: center;
+align-items: center;
+background: var(--Yellow, #F4D04E);
+}
+
+.card{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+border: 1px solid var(--Black, #111);
+background: var(--Pure-White, #FFF);
+box-shadow: 8px 8px 0px 0px #000;
+}
+
+.cardPicture{
+    width: 90%;
+    height: 35%;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.Learning{
+    color: var(--Black, #111);
+   margin-left: 5%;
+   margin-top: 3%;
+   background: var(--Yellow, #F4D04E);
+   border-radius: 10px;
+   text-align: center;
+   width: 40%;
+
+
+font-family: Figtree;
+font-size: 14px;
+font-style: normal;
+font-weight: 800;
+line-height: 150%;
+}
+
+.date{
+    margin-top: 5%;
+    text-align: center;
+    margin-right: 15%;
+
+}
+
+.text{
+    text-align: center;
+}
